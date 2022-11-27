@@ -2,7 +2,7 @@ import React from 'react'
 
 const Layout = ({ children }) => {
     return (
-        <div className="bg-gray-900 h-screen py-10">{children}
+        <div className="h-screen py-10 bg-teal-100">{children}
         </div>
     )
 }

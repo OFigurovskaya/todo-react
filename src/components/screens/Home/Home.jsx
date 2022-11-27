@@ -39,7 +39,7 @@ const Home = () => {
 
     return (
 <div className="text-white w-4/5 mx-auto">
-<h1 className='text-2xl font-bold text-center mb-4'>Todo version 1</h1>
+<h1 className='text-2xl font-bold text-center mb-4 text-blue-600'>Todo version 1</h1>
 {todos.map(todo => (
     <Todoitem key={todo.id} todo={todo} changeTodo = {changeTodo} removeTodo = {removeTodo} />
     ))}
